@@ -17,9 +17,9 @@ public class MyClass {
    {
       x = i;
    }
-   public void incrementCount()
+   public int incrementCount()
    {
-      count++;      
+      return(count++);      
    }
  
    public void printX()
